@@ -1,0 +1,37 @@
+.swiper {
+  :global(.swiper-wrapper) {
+  }
+
+  :global(.swiper-slide) {
+  }
+
+  :global(.swiper-button-prev) {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("/svg/arrow.svg");
+    transform: rotate(90deg);
+    height: 0.1rem;
+    padding: 13px 10px;
+    border-radius: 100%;
+    border: 0.1rem solid rgb(153, 149, 149);
+  }
+  :global(.swiper-button-next) {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("/svg/arrow.svg");
+    transform: rotate(-90deg);
+    height: 0.01rem;
+    padding: 14px 13px;
+    border-radius: 100%;
+    border: 0.1rem solid rgb(153, 149, 149);
+  }
+
+  :global(.swiper-button-prev::after) {
+    display: none;
+  }
+  :global(.swiper-button-next::after) {
+    display: none;
+  }
+}
