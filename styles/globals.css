@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -23,4 +27,23 @@ a {
     color: white;
     background: black;
   }
+}
+
+@font-face {
+  font-family: "cerealLight";
+  src: url("../src/components/fonts/cereal/AirbnbCereal_W_Lt.otf");
+}
+
+@font-face {
+  font-family: "cerealMedium";
+  src: url("../src/components/fonts/cereal/AirbnbCereal_W_Md.otf");
+}
+
+@font-face {
+  font-family: "cerealBold";
+  src: url("../src/components/fonts/cereal/AirbnbCereal_W_Bd.otf");
+}
+@font-face {
+  font-family: "cerealExtraBold";
+  src: url("../src/components/fonts/cereal/AirbnbCereal_W_XBd.otf");
 }
