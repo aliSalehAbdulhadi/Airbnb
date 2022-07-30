@@ -1,4 +1,4 @@
-.swiper {
+.swiperIcons {
   :global(.swiper-wrapper) {
   }
 
@@ -15,6 +15,7 @@
     padding: 13px 10px;
     border-radius: 100%;
     border: 0.1rem solid rgb(153, 149, 149);
+    background-color: white;
   }
   :global(.swiper-button-next) {
     background-repeat: no-repeat;
@@ -26,6 +27,44 @@
     padding: 14px 13px;
     border-radius: 100%;
     border: 0.1rem solid rgb(153, 149, 149);
+    background-color: white;
+  }
+
+  :global(.swiper-button-prev::after) {
+    display: none;
+  }
+  :global(.swiper-button-next::after) {
+    display: none;
+  }
+}
+
+.swiperImages {
+  :global(.swiper-wrapper) {
+  }
+
+  :global(.swiper-slide) {
+  }
+
+  :global(.swiper-button-prev) {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("/svg/arrow2.svg");
+    transform: rotate(90deg);
+    height: 0.1rem;
+    padding: 13px 10px;
+    border-radius: 100%;
+    background-color: white;
+  }
+  :global(.swiper-button-next) {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("/svg/arrow2.svg");
+    transform: rotate(-90deg);
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: white;
   }
 
   :global(.swiper-button-prev::after) {

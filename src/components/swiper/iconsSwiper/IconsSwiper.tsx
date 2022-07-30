@@ -1,21 +1,21 @@
 /* eslint-disable @next/next/no-img-element */
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import styles from "../../../styles/swiper.module.scss";
+import styles from "../../../../styles/swiper.module.scss";
 import "swiper/css";
 import "swiper/css/navigation";
-import icons from "../../data/sliderIcons.json";
-import { toUpperCase } from "../../utilities/toUpperCase";
+import icons from "../../../data/sliderIcons.json";
+import { toUpperCase } from "../../../utilities/toUpperCase";
 
 const IconsSwiper = () => {
   return (
-    <div className="px-[9rem]">
+    <div>
       <Swiper
         modules={[Navigation]}
         spaceBetween={0}
         slidesPerView={13}
         navigation
-        className={styles.swiper}
+        className={styles.swiperIcons}
         watchOverflow={true}
       >
         {icons.icons.map((icon) => (
