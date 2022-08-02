@@ -1,17 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import React from "react";
 import { IoSearch, IoPersonCircleSharp } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between border border-b-[0.5px] border-t-0 border-x-0 border-opacity-10 border-black h-[9vh] px-[8rem]">
-      <div className="flex items-center h-full">
+    <nav className="flex items-center justify-between border border-b-[0.5px] border-t-0 border-x-0 border-opacity-10 border-black h-[9vh] px-[8rem] outline-none">
+      <Link href="/" className="flex items-center h-full">
         <img
           className="h-[7rem] cursor-pointer"
           src="svg/airbnb.svg"
           alt="airbnb logo"
         />
-      </div>
+      </Link>
 
       <div className="flex border py-[.40rem] pl-6 pr-2 rounded-full font-cerealMedium text-[.9rem] shadow hover:shadow-md transition-all ease-in-out duration-200 cursor-pointer outline-none">
         <button className="pr-3 py-[.10rem] border border-y-0 border-l-0 border-r-1 ">

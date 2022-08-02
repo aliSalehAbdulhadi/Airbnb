@@ -12,8 +12,8 @@ const IconsSwiper = () => {
     <div>
       <Swiper
         modules={[Navigation]}
-        spaceBetween={0}
         slidesPerView={13}
+        slidesPerGroup={5}
         navigation
         className={styles.swiperIcons}
         watchOverflow={true}

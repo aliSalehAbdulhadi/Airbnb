@@ -7,9 +7,24 @@ const HomeCard = () => {
     "/images/image.webp",
     "/images/image.webp",
     "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
+    "/images/image.webp",
   ];
   return (
-    <div className="h-[400px] w-[300px] ">
+    <div className="h-[400px] w-[300px] cursor-pointer ">
       <div className="h-[73%] rounded-xl overflow-hidden">
         <ImageSwiper url={images} />
       </div>

@@ -19,16 +19,6 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: white;
-  }
-}
-
 @font-face {
   font-family: "cerealLight";
   src: url("../src/components/fonts/cereal/AirbnbCereal_W_Lt.otf");
