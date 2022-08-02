@@ -19,6 +19,16 @@ a {
   box-sizing: border-box;
 }
 
+.btnBackground {
+  background: rgb(255, 90, 95);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 90, 95, 1) 0%,
+    rgba(187, 28, 87, 1) 52%,
+    rgba(187, 28, 87, 1) 52%
+  );
+}
+
 @font-face {
   font-family: "cerealLight";
   src: url("../src/components/fonts/cereal/AirbnbCereal_W_Lt.otf");
